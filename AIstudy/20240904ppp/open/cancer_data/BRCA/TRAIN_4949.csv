@@ -1,0 +1,11 @@
+Gene,Original_Amino_Acid,Position,New_Amino_Acid
+CS,Q,187,R
+CS,R,183,Q
+DST,D,7456,H
+DST,D,7417,N
+DST,G,7388,*
+GATA3,L,403,fs
+GFPT2,K,438,fs
+HDAC5,W,792,*
+NOTCH1,G,1376,S
+NRIP1,V,171,fs

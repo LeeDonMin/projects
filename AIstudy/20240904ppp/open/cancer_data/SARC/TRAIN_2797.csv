@@ -1,0 +1,9 @@
+Gene,Original_Amino_Acid,Position,New_Amino_Acid
+ANPEP,R,140,H
+EGF,E,667,Q
+EGF,E,624,K
+EGF,W,658,*
+EGF,D,654,N
+JAK1,G,887,W
+MET,V,378,I
+RHAG,L,33,F

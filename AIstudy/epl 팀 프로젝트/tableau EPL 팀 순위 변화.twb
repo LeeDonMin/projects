@@ -1,0 +1,1987 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='EPL2022-2024' inline='true' name='federated.04288eg0zn1zy41du2ohz1r9q0av' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EPL2022-2024' name='textscan.0vbh0kv1qn2zij12xzao21avnpcg'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/Downloads' filename='EPL2022-2024.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0vbh0kv1qn2zij12xzao21avnpcg' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='LEAGUE' ordinal='1' />
+            <column datatype='string' name='SEASON' ordinal='2' />
+            <column datatype='real' name='GROSS P/W (GBP, K)' ordinal='3' />
+            <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+            <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+            <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+            <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+            <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+            <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0vbh0kv1qn2zij12xzao21avnpcg' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='LEAGUE' ordinal='1' />
+            <column datatype='string' name='SEASON' ordinal='2' />
+            <column datatype='real' name='GROSS P/W (GBP, K)' ordinal='3' />
+            <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+            <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+            <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+            <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+            <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+            <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LEAGUE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LEAGUE]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>LEAGUE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEASON</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SEASON]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>SEASON</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS P/W (GBP, K)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GROSS P/W (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>GROSS P/W (GBP, K)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS P/Y (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROSS P/Y (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>GROSS P/Y (GBP, K)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADJ. GROSS (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADJ. GROSS (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>ADJ. GROSS (GBP, K)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KEEPER (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KEEPER (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>KEEPER (GBP, K)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEFENSE (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEFENSE (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>DEFENSE (GBP, K)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MIDFIELD (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MIDFIELD (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>MIDFIELD (GBP, K)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FORWARD (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FORWARD (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>FORWARD (GBP, K)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Adj. Gross (Gbp, K)' datatype='integer' name='[ADJ. GROSS (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='계산2' datatype='integer' name='[Calculation_2325827782778556419]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([DEFENSE (GBP, K)])+SUM([FORWARD (GBP, K)])+SUM([KEEPER (GBP, K)])+SUM([MIDFIELD (GBP, K)])' />
+      </column>
+      <column caption='Defense (Gbp, K)' datatype='integer' name='[DEFENSE (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Forward (Gbp, K)' datatype='integer' name='[FORWARD (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Gross P/W (Gbp, K)' datatype='real' name='[GROSS P/W (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Gross P/Y (Gbp, K)' datatype='integer' name='[GROSS P/Y (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Keeper (Gbp, K)' datatype='integer' name='[KEEPER (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='League' datatype='string' name='[LEAGUE]' role='dimension' type='nominal' />
+      <column caption='Midfield (Gbp, K)' datatype='integer' name='[MIDFIELD (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[SEASON]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='EPL2022-2024.csv' datatype='table' name='[__tableau_internal_object_id__].[EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='p0.00%' name='[계산1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ATTR([GROSS P/Y (GBP, K)]) / TOTAL(ATTR([GROSS P/Y (GBP, K)]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='real' default-format='p0.00%' name='[계산3]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2325827782778556419] / TOTAL([Calculation_2325827782778556419])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column-instance column='[GROSS P/Y (GBP, K)]' derivation='Attribute' name='[attr:GROSS P/Y (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GROSS P/Y (GBP, K)]' derivation='None' name='[none:GROSS P/Y (GBP, K):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[GROSS P/Y (GBP, K)]' derivation='Attribute' name='[pcto:attr:GROSS P/Y (GBP, K):qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[DEFENSE (GBP, K)]' derivation='Sum' name='[sum:DEFENSE (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[FORWARD (GBP, K)]' derivation='Sum' name='[sum:FORWARD (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GROSS P/W (GBP, K)]' derivation='Sum' name='[sum:GROSS P/W (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GROSS P/Y (GBP, K)]' derivation='Sum' name='[sum:GROSS P/Y (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[KEEPER (GBP, K)]' derivation='Sum' name='[sum:KEEPER (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MIDFIELD (GBP, K)]' derivation='Sum' name='[sum:MIDFIELD (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[계산1]' derivation='User' name='[usr:계산1:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:FORWARD (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:DEFENSE (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:GROSS P/W (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[attr:GROSS P/Y (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[none:GROSS P/Y (GBP, K):ok]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[pcto:attr:GROSS P/Y (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:GROSS P/Y (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[usr:계산1:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:MIDFIELD (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av].[sum:KEEPER (GBP, K):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EPL2022-2024.csv' id='EPL2022-2024.csv_89219796075A44BF8593DC1913A3E18F'>
+            <properties context=''>
+              <relation connection='textscan.0vbh0kv1qn2zij12xzao21avnpcg' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='LEAGUE' ordinal='1' />
+                  <column datatype='string' name='SEASON' ordinal='2' />
+                  <column datatype='real' name='GROSS P/W (GBP, K)' ordinal='3' />
+                  <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+                  <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+                  <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+                  <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+                  <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+                  <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='EPL_DATA' inline='true' name='federated.02zpwfb0dgcikn15sxnxf0xlqnzj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EPL_DATA_2022_23' name='textscan.1b8ixjb0dw5chk1gmbj5f1ptowvf'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/Downloads' filename='EPL_DATA_2022_23.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='EPL_DATA_2023_24' name='textscan.0gbljp91mlkx71102hq9o1qbecxt'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/Downloads' filename='EPL_DATA_2023_24.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0gbljp91mlkx71102hq9o1qbecxt' name='EPL_DATA_2022_23.csv' table='[EPL_DATA_2022_23#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Club' ordinal='1' />
+            <column datatype='integer' name='Played' ordinal='2' />
+            <column datatype='integer' name='Won' ordinal='3' />
+            <column datatype='integer' name='Drawn' ordinal='4' />
+            <column datatype='integer' name='Lost' ordinal='5' />
+            <column datatype='integer' name='GF' ordinal='6' />
+            <column datatype='integer' name='GA' ordinal='7' />
+            <column datatype='integer' name='GD' ordinal='8' />
+            <column datatype='integer' name='Points' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0gbljp91mlkx71102hq9o1qbecxt' name='EPL_DATA_2022_23.csv' table='[EPL_DATA_2022_23#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Club' ordinal='1' />
+            <column datatype='integer' name='Played' ordinal='2' />
+            <column datatype='integer' name='Won' ordinal='3' />
+            <column datatype='integer' name='Drawn' ordinal='4' />
+            <column datatype='integer' name='Lost' ordinal='5' />
+            <column datatype='integer' name='GF' ordinal='6' />
+            <column datatype='integer' name='GA' ordinal='7' />
+            <column datatype='integer' name='GD' ordinal='8' />
+            <column datatype='integer' name='Points' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Club</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Played]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Played</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Won]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Won</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drawn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drawn]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Drawn</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lost]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Lost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GF]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>GF</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GA]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>GA</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GD]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>GD</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Points]</local-name>
+            <parent-name>[EPL_DATA_2022_23.csv]</parent-name>
+            <remote-alias>Points</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='22/23 시즌' datatype='string' name='[Club]' role='dimension' type='nominal' />
+      <column caption='22/23 RANK' datatype='integer' name='[Rank]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='EPL_DATA_2022_23.csv' datatype='table' name='[__tableau_internal_object_id__].[EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EPL_DATA_2022_23.csv' id='EPL_DATA_2022_23.csv_EB88380EDBA54A6B91BC4113C9583613'>
+            <properties context=''>
+              <relation connection='textscan.0gbljp91mlkx71102hq9o1qbecxt' name='EPL_DATA_2022_23.csv' table='[EPL_DATA_2022_23#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Club' ordinal='1' />
+                  <column datatype='integer' name='Played' ordinal='2' />
+                  <column datatype='integer' name='Won' ordinal='3' />
+                  <column datatype='integer' name='Drawn' ordinal='4' />
+                  <column datatype='integer' name='Lost' ordinal='5' />
+                  <column datatype='integer' name='GF' ordinal='6' />
+                  <column datatype='integer' name='GA' ordinal='7' />
+                  <column datatype='integer' name='GD' ordinal='8' />
+                  <column datatype='integer' name='Points' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='EPL_DATA_2023_24' inline='true' name='federated.01wq8o11ejtvzw18j74m40p9jghn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EPL_DATA_2023_24' name='textscan.01fahx51s153qz1eg0l4c0tz1frk'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/Downloads' filename='EPL_DATA_2023_24.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='EPL2022-2024' name='textscan.0jnn6tr1ure3ef16ybf391dw4n53'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/Downloads' filename='EPL2022-2024.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='EPL_DATA_2023_24.csv1+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='Rank' />
+            <column datatype='string' name='Club' />
+            <column datatype='integer' name='Played' />
+            <column datatype='integer' name='Won' />
+            <column datatype='integer' name='Drawn' />
+            <column datatype='integer' name='Lost' />
+            <column datatype='integer' name='GF' />
+            <column datatype='integer' name='GA' />
+            <column datatype='integer' name='GD' />
+            <column datatype='integer' name='Points' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0jnn6tr1ure3ef16ybf391dw4n53' name='EPL_DATA_2023_24.csv1' table='[EPL_DATA_2023_24#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+              <column datatype='integer' name='Rank' ordinal='0' />
+              <column datatype='string' name='Club' ordinal='1' />
+              <column datatype='integer' name='Played' ordinal='2' />
+              <column datatype='integer' name='Won' ordinal='3' />
+              <column datatype='integer' name='Drawn' ordinal='4' />
+              <column datatype='integer' name='Lost' ordinal='5' />
+              <column datatype='integer' name='GF' ordinal='6' />
+              <column datatype='integer' name='GA' ordinal='7' />
+              <column datatype='integer' name='GD' ordinal='8' />
+              <column datatype='integer' name='Points' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.01fahx51s153qz1eg0l4c0tz1frk' name='EPL_DATA_2023_24.csv' table='[EPL_DATA_2023_24#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+              <column datatype='integer' name='Rank' ordinal='0' />
+              <column datatype='string' name='Club' ordinal='1' />
+              <column datatype='integer' name='Played' ordinal='2' />
+              <column datatype='integer' name='Won' ordinal='3' />
+              <column datatype='integer' name='Drawn' ordinal='4' />
+              <column datatype='integer' name='Lost' ordinal='5' />
+              <column datatype='integer' name='GF' ordinal='6' />
+              <column datatype='integer' name='GA' ordinal='7' />
+              <column datatype='integer' name='GD' ordinal='8' />
+              <column datatype='integer' name='Points' ordinal='9' />
+            </columns>
+          </relation>
+          <relation all='true' name='EPL_DATA_2023_24.csv1+' type='union'>
+            <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+              <column datatype='integer' name='Rank' />
+              <column datatype='string' name='Club' />
+              <column datatype='integer' name='Played' />
+              <column datatype='integer' name='Won' />
+              <column datatype='integer' name='Drawn' />
+              <column datatype='integer' name='Lost' />
+              <column datatype='integer' name='GF' />
+              <column datatype='integer' name='GA' />
+              <column datatype='integer' name='GD' />
+              <column datatype='integer' name='Points' />
+              <column datatype='string' name='Table Name' />
+            </columns>
+            <relation connection='textscan.0jnn6tr1ure3ef16ybf391dw4n53' name='EPL_DATA_2023_24.csv1' table='[EPL_DATA_2023_24#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                <column datatype='integer' name='Rank' ordinal='0' />
+                <column datatype='string' name='Club' ordinal='1' />
+                <column datatype='integer' name='Played' ordinal='2' />
+                <column datatype='integer' name='Won' ordinal='3' />
+                <column datatype='integer' name='Drawn' ordinal='4' />
+                <column datatype='integer' name='Lost' ordinal='5' />
+                <column datatype='integer' name='GF' ordinal='6' />
+                <column datatype='integer' name='GA' ordinal='7' />
+                <column datatype='integer' name='GD' ordinal='8' />
+                <column datatype='integer' name='Points' ordinal='9' />
+              </columns>
+            </relation>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Club (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Club]' />
+          <map key='[Club]' value='[EPL_DATA_2023_24.csv].[Club]' />
+          <map key='[Drawn (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Drawn]' />
+          <map key='[Drawn]' value='[EPL_DATA_2023_24.csv].[Drawn]' />
+          <map key='[GA (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[GA]' />
+          <map key='[GA]' value='[EPL_DATA_2023_24.csv].[GA]' />
+          <map key='[GD (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[GD]' />
+          <map key='[GD]' value='[EPL_DATA_2023_24.csv].[GD]' />
+          <map key='[GF (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[GF]' />
+          <map key='[GF]' value='[EPL_DATA_2023_24.csv].[GF]' />
+          <map key='[Lost (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Lost]' />
+          <map key='[Lost]' value='[EPL_DATA_2023_24.csv].[Lost]' />
+          <map key='[Played (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Played]' />
+          <map key='[Played]' value='[EPL_DATA_2023_24.csv].[Played]' />
+          <map key='[Points (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Points]' />
+          <map key='[Points]' value='[EPL_DATA_2023_24.csv].[Points]' />
+          <map key='[Rank (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Rank]' />
+          <map key='[Rank]' value='[EPL_DATA_2023_24.csv].[Rank]' />
+          <map key='[Table Name]' value='[EPL_DATA_2023_24.csv1+].[Table Name]' />
+          <map key='[Won (EPL_DATA_2023_24.csv1+)]' value='[EPL_DATA_2023_24.csv1+].[Won]' />
+          <map key='[Won]' value='[EPL_DATA_2023_24.csv].[Won]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Club</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Played]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Played</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Won]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Won</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drawn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drawn]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Drawn</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lost]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Lost</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GF]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>GF</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GA]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>GA</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GD]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>GD</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Points]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv]</parent-name>
+            <remote-alias>Points</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Club</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Played (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Played</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Won (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Won</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drawn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drawn (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Drawn</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lost (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Lost</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GF (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>GF</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GA (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>GA</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GD (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>GD</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Points (EPL_DATA_2023_24.csv1+)]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Points</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[EPL_DATA_2023_24.csv1+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='23/24 시즌' datatype='string' name='[Club]' role='dimension' type='nominal' />
+      <column caption='23/24 RANK' datatype='integer' name='[Rank]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='EPL_DATA_2023_24.csv1' datatype='table' name='[__tableau_internal_object_id__].[EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='EPL_DATA_2023_24.csv' datatype='table' name='[__tableau_internal_object_id__].[EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8]' role='measure' type='quantitative' />
+      <column-instance column='[Rank]' derivation='Sum' name='[sum:Rank:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01wq8o11ejtvzw18j74m40p9jghn].[sum:Rank:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='federated.02zpwfb0dgcikn15sxnxf0xlqnzj'>
+        <column caption='22/23 RANK' datatype='integer' name='[Rank]' role='measure' type='quantitative' />
+        <column-instance column='[Rank]' derivation='Sum' name='[sum:Rank:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EPL_DATA_2023_24.csv1' id='EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9'>
+            <properties context=''>
+              <relation all='true' name='EPL_DATA_2023_24.csv1+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='Rank' />
+                  <column datatype='string' name='Club' />
+                  <column datatype='integer' name='Played' />
+                  <column datatype='integer' name='Won' />
+                  <column datatype='integer' name='Drawn' />
+                  <column datatype='integer' name='Lost' />
+                  <column datatype='integer' name='GF' />
+                  <column datatype='integer' name='GA' />
+                  <column datatype='integer' name='GD' />
+                  <column datatype='integer' name='Points' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='textscan.0jnn6tr1ure3ef16ybf391dw4n53' name='EPL_DATA_2023_24.csv1' table='[EPL_DATA_2023_24#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                    <column datatype='integer' name='Rank' ordinal='0' />
+                    <column datatype='string' name='Club' ordinal='1' />
+                    <column datatype='integer' name='Played' ordinal='2' />
+                    <column datatype='integer' name='Won' ordinal='3' />
+                    <column datatype='integer' name='Drawn' ordinal='4' />
+                    <column datatype='integer' name='Lost' ordinal='5' />
+                    <column datatype='integer' name='GF' ordinal='6' />
+                    <column datatype='integer' name='GA' ordinal='7' />
+                    <column datatype='integer' name='GD' ordinal='8' />
+                    <column datatype='integer' name='Points' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+          <object caption='EPL_DATA_2023_24.csv' id='EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8'>
+            <properties context=''>
+              <relation connection='textscan.01fahx51s153qz1eg0l4c0tz1frk' name='EPL_DATA_2023_24.csv' table='[EPL_DATA_2023_24#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Club' ordinal='1' />
+                  <column datatype='integer' name='Played' ordinal='2' />
+                  <column datatype='integer' name='Won' ordinal='3' />
+                  <column datatype='integer' name='Drawn' ordinal='4' />
+                  <column datatype='integer' name='Lost' ordinal='5' />
+                  <column datatype='integer' name='GF' ordinal='6' />
+                  <column datatype='integer' name='GA' ordinal='7' />
+                  <column datatype='integer' name='GD' ordinal='8' />
+                  <column datatype='integer' name='Points' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Club]' />
+              <expression op='[Club (EPL_DATA_2023_24.csv1+)]' />
+            </expression>
+            <first-end-point object-id='EPL_DATA_2023_24.csv_8ED2CD645C7E4C608091856C2572AFF8' />
+            <second-end-point object-id='EPL_DATA_2023_24.csv_1256DC4C8A074C228452B296EF6BE7C9' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='EPL2022-2024(2)' inline='true' name='federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EPL2022-2024' name='textscan.0u7ulvm09k8aq9155ku551r5heyp'>
+            <connection class='textscan' directory='C:/Users/kangdongwoo/OneDrive/Desktop/epl 팀 프로젝트/tableau EPL 팀 순위 변화.twb개 파일/Data/data' filename='EPL2022-2024.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[Defense (Gbp, K)]' />
+            <value name='[Forward (Gbp, K)]' />
+            <value name='[Keeper (Gbp, K)]' />
+            <value name='[Midfield (Gbp, K)]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[EPL2022-2024.csv].[DEFENSE (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[FORWARD (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[KEEPER (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[MIDFIELD (GBP, K)]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0u7ulvm09k8aq9155ku551r5heyp' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='string' name='LEAGUE' ordinal='1' />
+              <column datatype='string' name='SEASON' ordinal='2' />
+              <column datatype='integer' name='GROSS P/W (GBP, K)' ordinal='3' />
+              <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+              <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+              <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+              <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+              <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+              <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='integer' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[Defense (Gbp, K)]' />
+            <value name='[Forward (Gbp, K)]' />
+            <value name='[Keeper (Gbp, K)]' />
+            <value name='[Midfield (Gbp, K)]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[EPL2022-2024.csv].[DEFENSE (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[FORWARD (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[KEEPER (GBP, K)]' />
+              <field name='[EPL2022-2024.csv].[MIDFIELD (GBP, K)]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0u7ulvm09k8aq9155ku551r5heyp' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='string' name='LEAGUE' ordinal='1' />
+              <column datatype='string' name='SEASON' ordinal='2' />
+              <column datatype='integer' name='GROSS P/W (GBP, K)' ordinal='3' />
+              <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+              <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+              <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+              <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+              <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+              <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LEAGUE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LEAGUE]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>LEAGUE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEASON</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SEASON]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>SEASON</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS P/W (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROSS P/W (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>GROSS P/W (GBP, K)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROSS P/Y (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROSS P/Y (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>GROSS P/Y (GBP, K)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADJ. GROSS (GBP, K)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ADJ. GROSS (GBP, K)]</local-name>
+            <parent-name>[EPL2022-2024.csv]</parent-name>
+            <remote-alias>ADJ. GROSS (GBP, K)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Adj. Gross (Gbp, K)' datatype='integer' name='[ADJ. GROSS (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Gross P/W (Gbp, K)' datatype='integer' name='[GROSS P/W (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='Gross P/Y (Gbp, K)' datatype='integer' name='[GROSS P/Y (GBP, K)]' role='measure' type='quantitative' />
+      <column caption='League' datatype='string' name='[LEAGUE]' role='dimension' type='nominal' />
+      <column caption='Season' datatype='string' name='[SEASON]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='EPL2022-2024.csv' datatype='table' name='[__tableau_internal_object_id__].[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[LEAGUE]' derivation='None' name='[none:LEAGUE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ADJ. GROSS (GBP, K)]' derivation='Sum' name='[sum:ADJ. GROSS (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GROSS P/W (GBP, K)]' derivation='Sum' name='[sum:GROSS P/W (GBP, K):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GROSS P/Y (GBP, K)]' derivation='Sum' name='[sum:GROSS P/Y (GBP, K):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:KEEPER (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[pcto:sum:Calculation_435160364209217536:qk:2]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[pcto:sum:Calculation_435160364209217536:qk:7]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[pcto:sum:Calculation_435160364209217536:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:Calculation_435160364209217536:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:FORWARD (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[__tableau_internal_object_id__].[cnt:EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:ADJ. GROSS (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:GROSS P/Y (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:GROSS P/W (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:DEFENSE (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:MIDFIELD (GBP, K):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:Calculation_435160364219908099:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:LEAGUE:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Championship&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Premier League&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='LEAGUE' />
+        <field-sort-custom-order field='SEASON' />
+        <field-sort-custom-order field='GROSS P/W (GBP, K)' />
+        <field-sort-custom-order field='GROSS P/Y (GBP, K)' />
+        <field-sort-custom-order field='ADJ. GROSS (GBP, K)' />
+        <field-sort-custom-order field='KEEPER (GBP, K)' />
+        <field-sort-custom-order field='DEFENSE (GBP, K)' />
+        <field-sort-custom-order field='MIDFIELD (GBP, K)' />
+        <field-sort-custom-order field='FORWARD (GBP, K)' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Calculation_435160364209217536' />
+        <field-sort-custom-order field='Calculation_435160364219908099' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EPL2022-2024.csv' id='EPL2022-2024.csv_F314F6F9EEB5463DBEBEE664569C6E21'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='integer' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[Defense (Gbp, K)]' />
+                  <value name='[Forward (Gbp, K)]' />
+                  <value name='[Keeper (Gbp, K)]' />
+                  <value name='[Midfield (Gbp, K)]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[EPL2022-2024.csv].[DEFENSE (GBP, K)]' />
+                    <field name='[EPL2022-2024.csv].[FORWARD (GBP, K)]' />
+                    <field name='[EPL2022-2024.csv].[KEEPER (GBP, K)]' />
+                    <field name='[EPL2022-2024.csv].[MIDFIELD (GBP, K)]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.0u7ulvm09k8aq9155ku551r5heyp' name='EPL2022-2024.csv' table='[EPL2022-2024#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                    <column datatype='string' name='F1' ordinal='0' />
+                    <column datatype='string' name='LEAGUE' ordinal='1' />
+                    <column datatype='string' name='SEASON' ordinal='2' />
+                    <column datatype='integer' name='GROSS P/W (GBP, K)' ordinal='3' />
+                    <column datatype='integer' name='GROSS P/Y (GBP, K)' ordinal='4' />
+                    <column datatype='integer' name='ADJ. GROSS (GBP, K)' ordinal='5' />
+                    <column datatype='integer' name='KEEPER (GBP, K)' ordinal='6' />
+                    <column datatype='integer' name='DEFENSE (GBP, K)' ordinal='7' />
+                    <column datatype='integer' name='MIDFIELD (GBP, K)' ordinal='8' />
+                    <column datatype='integer' name='FORWARD (GBP, K)' ordinal='9' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.01wq8o11ejtvzw18j74m40p9jghn'>
+      <column datatype='string' name='[Club (EPL_DATA_2023_24.csv1+)]' role='dimension' type='nominal' />
+      <column-instance column='[Club (EPL_DATA_2023_24.csv1+)]' derivation='None' name='[none:Club (EPL_DATA_2023_24.csv1+):nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.02zpwfb0dgcikn15sxnxf0xlqnzj'>
+      <column caption='22/23 시즌' datatype='string' name='[Club]' role='dimension' type='nominal' />
+      <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.02zpwfb0dgcikn15sxnxf0xlqnzj' target='federated.01wq8o11ejtvzw18j74m40p9jghn'>
+      <column-mapping>
+        <map key='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[none:Club:nk]' value='[federated.01wq8o11ejtvzw18j74m40p9jghn].[none:Club (EPL_DATA_2023_24.csv1+):nk]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='F1 Position Budget Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<시즌별 각 팀의 연봉 합계와 각 포지션 별 연봉 세분화>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPL2022-2024(2)' name='federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Season' datatype='string' name='[SEASON]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SEASON]' derivation='None' name='[none:SEASON:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[pcto:sum:피벗 필드 값:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[피벗 필드 값]' derivation='Sum' name='[sum:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:F1:nk]' value='29' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:피벗 필드명:nk]' />
+              <text column='[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[pcto:sum:피벗 필드 값:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[sum:피벗 필드 값:qk]</rows>
+        <cols>([federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:SEASON:nk] / [federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:F1:nk])</cols>
+      </table>
+      <simple-id uuid='{269ADC10-80E9-4841-8CBF-25751091A555}' />
+    </worksheet>
+    <worksheet name='시트 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>팀별 한 시즌 순위 변화</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPL_DATA_2023_24' name='federated.01wq8o11ejtvzw18j74m40p9jghn' />
+            <datasource caption='EPL_DATA' name='federated.02zpwfb0dgcikn15sxnxf0xlqnzj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01wq8o11ejtvzw18j74m40p9jghn'>
+            <column caption='23/24 시즌' datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column caption='23/24 RANK' datatype='integer' name='[Rank]' role='measure' type='quantitative' />
+            <column-instance column='[Rank]' derivation='Attribute' name='[attr:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rank]' derivation='Sum' name='[sum:Rank:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02zpwfb0dgcikn15sxnxf0xlqnzj'>
+            <column caption='22/23 시즌' datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column caption='22/23 RANK' datatype='integer' name='[Rank]' role='measure' type='quantitative' />
+            <column-instance column='[Rank]' derivation='Attribute' name='[attr:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rank]' derivation='Sum' name='[sum:Rank:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.01wq8o11ejtvzw18j74m40p9jghn].[attr:Rank:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[attr:Rank:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.01wq8o11ejtvzw18j74m40p9jghn].[attr:Rank:qk]</column>
+            <column>[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[attr:Rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01wq8o11ejtvzw18j74m40p9jghn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01wq8o11ejtvzw18j74m40p9jghn].[sum:Rank:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01wq8o11ejtvzw18j74m40p9jghn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01wq8o11ejtvzw18j74m40p9jghn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.01wq8o11ejtvzw18j74m40p9jghn].[sum:Rank:qk] + [federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[sum:Rank:qk])</rows>
+        <cols>([federated.01wq8o11ejtvzw18j74m40p9jghn].[none:Club:nk] / [federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[none:Club:nk])</cols>
+      </table>
+      <simple-id uuid='{972CB622-25C8-4262-88F2-253C473F5CD4}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='worksheet' name='F1 Position Budget Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:피벗 필드명:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:F1:nk]</field>
+            <field>[federated.04288eg0zn1zy41du2ohz1r9q0av(복사본)].[none:피벗 필드명:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B9E64CEE-1ED7-4C44-A7D7-FBBDED6FAC6A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='시트 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.01wq8o11ejtvzw18j74m40p9jghn].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.01wq8o11ejtvzw18j74m40p9jghn].[none:Club:nk]</field>
+            <field>[federated.02zpwfb0dgcikn15sxnxf0xlqnzj].[none:Club:nk]</field>
+            <field>[federated.04288eg0zn1zy41du2ohz1r9q0av].[none:F1:nk]</field>
+            <field>[federated.04288eg0zn1zy41du2ohz1r9q0av].[none:SEASON:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{11CDE380-5C38-4F9F-BA3D-5371A61E5D5B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='F1 Position Budget Analysis' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO2daYxc2XXff2+peq/2vTf2SrJJDodDcjZqRpRmZMW25Mj2KJatSAkiBwmc
+      wEGgwEg+OQEiIIADOICSOB/ywbANx3CkyBGCyJZkOZY9Hs8mjWY0HHK4dbP3fa+u9VW9JR+q
+      2ezWq+qqZi9V3X1/AAH2OfVe3becevfd+7/nSI7jOAgEJxS52Q0QCJrJgQZANps9yN0LBHvm
+      QAPAsqyD3L3gGOPYZX78ztvcHh5/zO1LfHDrLgArM2P8zetvMLuU5v4H77OcLW5+Tt2X1goE
+      +0xpdYo703leudTG3ZvvMbtS4NL5Pu7cvkP32ScYHb7P4IVLTA3fAl8cpZzBNAzOPH2djqiP
+      xfEh1GAbAPNjD/C3nyMRUPjx7ZuUEn0kgjog3gEELYo33s9LV7v51re/x5tvvoVTKjExOYlp
+      5blzbxKzVGRl5i6LpRjpqTFG5xbpSXqYWswBMDy1yJme5MbeHBbmZsmZCqfa4tu+RzwBBC1J
+      ObfK6OQCZ86cJXC6k/WSSjjkwSjHiYfiFNdNPJE+Oo0RnPhZuhSLUCIAHh2sIiVHR1MkAGId
+      vTyb7CGollkomCiT43AqBoB0kMOg6XSaSCRyULsXnGDK5TIej6eqz8ytsGL6aYvodfcjukCC
+      I0k+n6/pUwPxhm5+EF2gA8fIpRkam8SWvKjlLLkyDJ7pZWpmDkkN4JMLzC9kefb6NRTTYOje
+      EJmSQ9wvs57J0nXmAsszkxQtmY6ozvziIqfOXmn4Agt2RgTAAeP1h4n6NRxfgOK6xkDMwdZD
+      BLVltEiUsDdMrqySnpsCLUIyHkExJKxSgaevnuP+RJl4JEjB0YiEvYxNTOPTqj/6BbtHdIEO
+      mLWZB4wv5/EoGkZhhYnFVTJTwyxky6iKw7vv3sCva8Q7ugl7y9wamkT3eJAsgw9vPcCj5Lg/
+      sYjXo7KWXicWDZJO55p9WMcG8RJ8wNiWSalsIisqqgyWDbIEZdNEUVRsy8RBQtM1sG2MUglJ
+      kvF6FEqmjUeVKZXKSLKCIoFlO3i9XiSp2UfWXPbr3toMgGw2u+8zt/l8Hr/fv6/7FAhg/+6t
+      zXeAYDC4551V46Q/AQQHx37cW+IdQHCiEQEgONGIABCcaEQACE40IgAEJxoRAIITjZBCHGPW
+      cwa/9+0fu+wBn4d/9gvPNqFFrYcIgGOMUTZ59f0xlz0W0kUAbCC6QIITzS4DwGF+eoKxqTkA
+      FudmKJYs5qbGWFhZJ5vN4Nhl1tIiG4TgaLDLLpCDHoyxOD6GEfcz/GCYPsXDel7BTk+i+XRk
+      0yDRM3gwrRUI9pldBoDE6uI0ic5uhu7dxbbKLCzOEwp24lDAKGbJ5kxOnVGwLAvbtjFN82Ba
+      LqiLaVYXNzoOR/667Ne9tbsAsA0WltYJWR4uPn2N3OoCljfC3Ng9ZF+URDTC4ICf+cUVujuS
+      yLKMqor37GahqkpVuyRx5K/Lft1bu9uDrHPthWubf4Zilbwr0Scvb/tYty+054YJBIeBGAUS
+      nGhEAAhONCIABCcaEQCCE40IAMGJRgSA4ERztAeD94GvfuMt3rkz47J/+XPXePFSTxNaJDhM
+      TnwAGCWLvFF22U3bbkJrBIeN6AIJTjS7fALYDN25w3LGYHCgk9nZeXyRFOsLM0i+INGQTtTv
+      JWP76WmPHUyLBYJ9ZJcBINPZ2Y4hrRFPtrGytExQKyN1DkJ+kXxundl5kxeef+bIiOFqZYa0
+      rdZvez2EGK4+uwsAp8R7799mYPAcQx/ewNJj6P4IM8NjoHoIB4OcjShMLa7R0xY7EmI4qUaS
+      TVlp/bbXQ4jh6rPLPag88+zTOJJMW/IipVIZTfdx8eJ5JMWDIksoiky5LKpDCo4GuwsASSYY
+      eqT01LSNIg2e7bvxeI72r4vg5CBGgQQnGvFTfYzIZDK8/vrr2LaNJElMzi5ilhwUj8bkzdcI
+      Jbvx+kPkJiaZmnqOV199lWvXrqEoCmfOnGl285uCeAIcI0KhEL29vaRSKQqFAgHdQyGzguPY
+      eP0hjNwagWgbXn+YcrmMZVm88cYbvP322xiG0ezmNwURAMeIqakpbt26RWdnJ1euXEH2aGi+
+      EKaRRw9EscwSxewa2dUFotEoTz/9NIODg6iqSrnsng0/CYgu0DEilUpx/fp1dF0nHA5z7SMv
+      8vX3/hrbtvFFkgQTXTi2RfuZq3g8Hs6dO4fX62V1dZVAINDs5jcFEQDHCE3T6O7u3vy75KiV
+      2mKygqI+qiwZCOnbKgIlEolDbWcrIbpAghONCADBiWbXmeHGhu9TxEtfW4QHE3OcHhxkfvIB
+      si9GyO8hEtBZzpRpS4jieILWZ9cBcKp3gLt37zMxW+L8YA/DI/dQ9RROZo1izmZ6sszgxSex
+      bRvHcbBbXldfXQx3NNq+MzXb7+zgOyLs1/XZdWrE0eH79Jw+w+L0RBUvYNvYNqJzdQiUyha/
+      9x13/n9Vlvm1X3iGjSsi2IFdpkYsUSiazE7P0NvZxr2hSU4Pnq90gUKVLlA0FGBhNY0/FUeS
+      JGS51SOh+k1yFNpuOxZ/8c6Iy+5VFf75K88hyzUCQKLlj60e+3V9dpkaUePKM1c3/7x0qbLo
+      ZeDshW0f60hpe26YQHAYHO2fAYFgj4gAEJxoRAAITjQiAAQnmhOlBXIchxs3brC8vMyzzz7L
+      3/7t3zIztQ4opOfHKWZWCLf1IKsai9OjvG+vEotVXvR7e3trrh8WHF1OVAAADAwMMD8/z+3b
+      t8lms+j+AKwXibT3YVsmilcnPTvKymKYhF9iYmKCfD6Pz+ejra2t2c0X7DMnrgv0cLVUT08P
+      n//851mavA+AY9uYpTzlYp5SIcPIgyFCoRCWZZFMJrlz506TWy44CE7cE+D27dtYloVpmnzv
+      e99Dj3ZQnFtFkmWiHafx6AEC0Tae/2g3Fy9eJJVKMTExQVdXV7ObLjgAdh0AtmViI6NIDrl8
+      EX/AT9koPkqLIsuULQtPC+adkSSJ69evb/49MDDAjZXXmclNuT6b7OxB13V6enro6RFJco8r
+      u75LH3z4Lk7sNEp2AVQZU/WTX13dSIylE/JKWL4knYnwQbRXINhXdh0Avf2nmc44qF6ZxdUs
+      sbhMpK0f8osUi1kWlkxeeH5ApEY8BEyrevscHEzTFKkRG2CXAWAy8mCEhYJCR9yPpnuxJT+Z
+      uSEkPUQ0FKG7TWN8don+rpRIjXjAqGb14JWQUFVVpEZsgF2nRnzi6Y/wxE+aB7b3kUXnR3BU
+      OHHDoALBVo72c1CwIzE5w3+J/47LrgQSwGcPv0EtiAiAY4yMTVJZd9kl2duE1uw/cytZltN5
+      l/10Vwyf5qmyhRsRAIIjy7ffus+33rjvsv/nf/kpTnc1VqFIvAMITjTiCdDifP37t6rOVXz+
+      k082oTXHDxEALc7Xv3+rauKWX/7ExUNvy3FEdIEEJxoRAIITza67QPc/+AFy/AxRJc/scoae
+      vj5G7t5B0oPEQjpRv4eMExB1ggVHgl0HQF//aaYzNjMzc8i6ztLcONGHdYLz68wuiDrBh4Fp
+      WphWDbHbhhjOqek/HmI4265+7R6u92iEXQaAxez0DHM5mc5omJIj48gq6flR8HiJBIO0RRSm
+      FlbpaY8LMdwBoqoKTq2sdhtiOFupIYbjeIjhamW+UxSl4ePbdaX4tt6zpACf30+xUED3+TBL
+      BpLiQZZAUeSaMlyBoNXYdXJc/5ZSOn6/HwDvw3rBD3d6xH9dBCcHMQokONGIABCcaEQACE40
+      orMuOJLMz89z80dvsDAyg6yorM6OcPbaZ7BMg1f/6i9QPv4Cr732GoqiEIvFsCyLaDTKiy++
+      iLJldEwEgOBIkkqlCIdDBGId6KEYkiyDJFHMriHLISYmJnAcB0mS8Hg8zM/Ps7S0RKlU4pOf
+      /OTmfmp2gWZnpwGHpaWlGlW0BILm8e677zI6NgE4pOfHCbf1YRp5VK8PHJtsNovX68U0TV56
+      6SXOnj1LMpl0TZBVfQJMPLjL/EqW5fkZLH87ieRhHFJz+HL4m/x68i9ddr/2n4C+w2+QoCGe
+      e+45RvIR/uzNIfzRdiRJwnEcVA2uv/RTnO1ObhbRk2WZ69evV531r/oEWFtdpmiUKBt5hoaG
+      D/ZImows2SiS4/oniedeSyNJEoqiIMny5my+JEkbdnXTryjKpr0ye7z9lq8aAFowwpVzvSyu
+      Zujo7Ng24T43+YCFtRwA4w/ukS2WGR26y/j0HCsrK1ilPAtL6YM5aoFgn6naBTp3vrLa6Gc+
+      dcqllfGqMmu5HEEpz9LqGp7QMpYao5xZo5izmJo0OffkpSNTJ7iGFq7l214Rg9Vqn7OjWOzh
+      9kcZx3FqXrudz812dpwHcBzI5XLbbIFAEIDJqWlKhSyLy6sbfSsHCQkZG+uIn9zjwomt57GL
+      4676BLhz+wN62+NM5zXW50d4/vkXNjwm4xOz5CyFS09dpSe3iu0JsjQ1ghyOE/KpREIBFlfX
+      CRyROsG1bpJWb3ulP1vLW2m7vUMEtPKxNUKlX1/dJ0vuvn4tqgZAsVjAsU1M+ydzq6icu3R5
+      8y9PqLLoJXj2/LZPtYs6wYIjQtUw8WteRqcW8OuaqIslONZUfQJcuPTM5v+7YlerfaRhRmfX
+      +MFtdwGK3vYIH70kCk8ImkvVAJibGmdpNc3c1Aj+9tNcu3oZ9TG7jGOzq3zt+7dc9o9f7hUB
+      IGg6VW/r+dkJpkaGeO+DG6ys58WUkODYUvUJIMsy0XiU/jMX0RWZGksvBU1GxmZAnXHZW7E+
+      W6tS9UxdeuajgMM1R6q58FjQfDSpzH+I/b7boWjAlw+9PUeRql0g0yxjGCVs2yaznmaHCUWB
+      4EhT9QmwtrzID999j2svXGfo3n1eePGFah8TCJrKT/ve5cnI/3XZ25XngcYSs1UNAJ/PR35l
+      mtv3h5BkbdvMcmZ1EcsTwieXGZ2Yoaf/NOuLU8j+GH6vQtCvsZYxiEVDj3NMAkHDtCsrxL1j
+      LrsulRreR9UAKBVzSJ4A/WcuIOVXsIGHi8jSy/MYukNnzE/fqQQjY8MoShB7fYaMT2OxbJDq
+      G6yZcW0rjXymmbRC+34r/rvguLVVCr+043b12t4Kx3aQNHp8VQMgkuzis7/8xcofieC2F4VU
+      WzvTGQfHLDI6s8rZ/jamFsBxCpSLWTI5k26PsqnIqyWMsx0Hq0bqvsOkZmpE226J9vUoC1Bl
+      INq2TJwadYKhkh5wp9SIrXBse8G2bZwdUiPWOvafpPpE2PQ4hZKNY5lkSw5XLz0sjGoyNjZF
+      uqxgBz04tk2m6MHMjSP7oiSiEc6eDrCwuMKpjiSyLKPUECXJktQSCbTKtVIjtnhaR0VRgdqq
+      21ZIjVgqW+SNssvuVRX8emM1vGohyzLSDqkRlb2kRpyeGAEtgqrIhOLtW1R3KucvP+36fDL2
+      1La/T3UEG/pywfHm9ZsT/Nf//QOX/eOXe/k3X/hoE1rkpmoAaLqOKVeiaHF+jsH+7sNul0Cw
+      Z776jbfI5N0vxF/+3DViIR9QIwAuP3sdqOitrR36mQJBK3NzZIGV9YLLXio/ej+oGgBbJdCV
+      vqZAcDxp+t39wzvTfO+HD1z2Z8938ndfGNz371taWiKfz9PZ2cnY2BiJQhEPUCjbLGctEkGF
+      yZUysbkVIsllfD4fjuPg9/vF2ohjSNMDYH41x4/uuQVdyYhv37/LcRwymQz37t2jUCggSRJ/
+      fWOSn0k4vD6cI6DJrBcVgprMOx/cI1pMbmYW+/jHP97So0KCx+NoLwzdJZIk4fV6mZubo62t
+      jZGREYIeC0mSCGoyKzmLjGFTKDt85NpzqKrKwsICMzMzvPnmm81uvuAAOFEB4DgOY2NjhEIh
+      xsfHAbAkjdl0mUSw8ut+vl1jJW/SFfVw/fp1Ll26RCgU2iwGIjhenKhnuiRJXL9+fZutUP4u
+      5vAIncC5tspi/hcHAkiArutcvXqVq1f3tixU0Lrs+glQNvLki2Ucq8zU1Ay247C6NE86W6BY
+      LIJjkcu5h54EglZk10+AiaHb2NFe5NwyoWiI4dFRSkUbx1rEH/ChYeJL9RKovyuBoOnsOgC6
+      e/uYzjhYkkoymWB58S7+SD9OYQmjmGUxa/L8gL5ZJ3gnMZxpmjVT2D30HzQ7ieFauZauVUcM
+      14w6wbZtUyqV0LRKOp1SqTIL6zgOjl0ZbLBti5JRpFQqYVnW5sjaboeY64rhTLNm3sutdYR3
+      GQAmoyPjLBsKZ3oSfHDzLqf6zzI/NoTkixCNJBjo9jM1u0RfV6ohMVytDF6HJZYTYrj9Y3Jy
+      knv37qFpGvF4nP/5x/8LQhcpZlcrOfxT3RjZNH8z9SOe77JYW1ujr6+PJ598kkBgd32GhsRw
+      Na7t1jrCuzwLKheuPrf5V0dXLwCpq89s+1RfeHd7FRwPUqkUb775JqdPn+bWrVtEQgFWbYv8
+      6jyObZFdniHZ9yQX4x3EYjFmZ2e5desWMzMzvPLKK02ZaDxRw6CCg2VycpJQKMTa2hqXL1+u
+      rC3PruGLpLAtE0mSWV+cJNLWy3PPPcfp06cZGBho6uKcA3/GP+Ud4Tcjf+SyJ/wvAa0hiRXs
+      D4ODgwwOPpKv/MoX/uGmHNofeVRmyOuryOU/9rGPHW4Dq3DgARCRc1z0jru/WF066K8W1CGT
+      N/jhnWmX3a97efHJkyGBb923PMGBs5Qu8Dvf/KHL3p0KiwAQCA6a4ekVPngw77IPdMZ4erDj
+      UNogAkDQNO6ML/GHf37DZf/0tbOHFgBiFEhwohFPgD0yu5zZtsTuIR3xIJq3/un9zttDlEz3
+      9p++dha9ge0Fe0Oc4T3y2197k5GZVbf913+a8z31K4z/8f+7SbbgXrj98pV+EQCHwGOf4Znx
+      ByylM8Tbe1idHUfSw0RDOrGAl1XDQ3d7Y7kZBYJm8tgBYJplLNPEyC8TSAzgFJZYTy8zNW1x
+      7fmnt4jhagiyNsRmR10MV2t7y2pUTFdre3PH7fdDDGfX8u/Tua91bZ1NIWSt769/7pokhntE
+      Jm/Q13eKmbk1YBHHLuEPBOnxWSyu5WiPBTfEcAru3GAgbYjNjroYrpZ+RVEaFdPV2l7dcftG
+      xHCW5KG0HHH55FK4cu5rieX26dzXurbSphCy1vfXP3dNEsM94vz588wuLHPhwnly6WUkLYRX
+      BV3TyOXFgphWwDFVcsN9LrscjTaUPDxXLDE6u+ay+zUPp7uORxf3sQNA9er0dJ8CIBJPbfMF
+      xPrZY8Ho7Br/9nf/ymU/35Pgt3/9Z+puf12/xdXkf3TZvaGfo1V0YE0fZnhJv8GT8f/msocD
+      nwWeP/wGCfYNGRuP5O7nK1VszaLpAeCTDFJK2mX3yKIbJdgbp9UZEmrWZd8alE0PgFZnZb1Q
+      daIrFtIbmugSNI/fiPwJjrLgsgfkLwKVwQFxBevw1W+8xc0R90n89//4ZZ4519mEFgn2kxMf
+      AIXJDgofnnHZ1Y8F2VsJB8FeWUrnWU7nXfZ42Id3n1ZPnvgAsAo6Vta9INsun/hT03T+8kcj
+      fO37t1z2z738BK+80L8v3yGucouT/uB81RnNoCMyVe8HIgBaHLuo1ZzSF+ydxw4Aq2wwMjJG
+      Z+8A64vTyP4YAU0m4NdJizrBm/zun77LWtZw2f/pZ54mHt7/FPCHyfD0Cv/ntbsu+0BXlF9+
+      +WITWrR7HjsARofuUnC8OGaGdcODk50hq3uRSgZt/efqp7pwWr+W7Z7at3F879ydYX4153J/
+      8acvEXP0nfa+4/4dQKohpNts207NcxwkHOQqeiIZu6FjX07nef3mhMuXN8p87qVGzl2d9tej
+      zvHV//49BEDBsBl8oofhu3fxx/pxnDzlYo5szqRnS53gnRSBFcVoLTXm4dQRrlcneM/+Gt9r
+      WdbG8dVWLO50/JZpITk7+C2rphKXjXPfJc3yP1K/5XJLsQEs69O11aI4m2rf6rtvzN8nz/Dz
+      PnfdhQsesKyr2FUKhAM4tlNRg+6g9nQsq2aAWJaFtHFsjx0AA/3dDN0fpbPvHKuz48j+GIlY
+      lMHTfua31AmuqQiUK4pAu4aiT5YPRw1aS835UA362P4NNWitV9VHisTHU4OqqgL2Tn4Vaqg9
+      2VBjWjXVoOysFqWemrPid+qoQS9o0wwE3Vojj56s7F+qfe80pgat6kZRFOS9qkGDsRSXYxUR
+      XErUCRYcAG3KKk953PXjOpR2oH/P+/+j790Qo0CZoJ+1mFszH/J6WiLF+3IsUvVR303NH7hj
+      w3X9Fs9Hv+aye/UARZ6pssXu+NM374sAeP3aM3zY1+Wy/4NTnQ1p5vfKNe02Rdst/PNKnwF0
+      vv6LP1d1u8uyjFJ7PQwAjiRR0DWXXdG8j9PUY8mJD4Bm80+C3wHPusvuk34D2NtQctbv4/e/
+      8Esue8ir8e8a2D4gFbnoGXXZez3uRfxHlZYPgHSuSLrKOHo4oBEN7jSMeDi0yasYyqLL7qV1
+      i2s0So+6wG9G/9hll4NXgC8dfoMOgJYPgO/+YJiv/WV1PciXPnXlwL//M/63eCF422XvVi8C
+      nXw5/E1s447L71dfBg42u5ljyay994TLLnk9e3x2NEafOsevBf/UZU/5rgAvH0IL9k7LB0Cz
+      ueJ9gOVzp+/zye5uSzNwytU0q4ejY00q67xc5dwo3qOjAjjwACivB8ne63fZ9VCKoy0EEBwH
+      DjwA7JKH8pq7ZpInfzi3/x98933eqDJd/49+9jIvX+0/lDYIWpdj3wXK5A0W19yLKgrG0X9J
+      PemU10IUJttddr3socYcuIvHDgDHtnjzte9z9sqLTA3dQdKDxMI6UZ+HLEF6RGpEwQFjpkMU
+      Z9wB4JQau63/e/Krjx8AU2PDJNq7MHLLxLrOQX6RQj7D3ILJC893b4qhpJqpESvp8YrzUdbf
+      P+/y+6NtqKaJUyt1YqOpC2uK7Srb10yv99C/Q+pDTBNnBzGbY5o7iuF2Tn1oYe/gNzeEdq++
+      8JzLp6gqf980a4rp6qdG3NnPRmrDmvt/6K+bGrHWta3n31loadnWRmpIGcdy64ksy8Y2TbyY
+      jx8Auj/I4uIIthamuPIAPDrRUJD2qMrk/Aq9HQlkWabk9zOXSri2j0fDpFQVyVGxDfdsJZan
+      IiarlTqx0dSFNcV2G2K1WoKqDX+pTupDqYYo+aEg61+Fv4nhzLn87Z7rqGrtp+RWwVY1VEXB
+      lCQ+vDDo9m20XalTJ7ieGM6sI6arJbbbKoarmhZTeiiErHVtN8R6O1x7WZahhl+RK0LD9Rvn
+      sVbbXH7/l/S9p0ZMdZwi2daJI0nYPZ0gK8hSpfFR61Fkjp/q5Juf+VnX9lc6ujj7uF++hUze
+      IF90n+ag30tAb/6Uf786i+NxF6LzSsf/HcQqahjzcbejhcSSe3oJlmQZCZA928eda/3yHATf
+      +OvbfOuNey77lz51mc8dkVVJxxUz4yc/VqXYXlf8UCbqGkGUSBKcaFp+GPSa9y6J0Ddd9n7t
+      s8DBSyEErYvh9ZIJuBMxp5TGf9ebHgCOJGFVedF0Nmyn1EVSultr41Ubyy78K4FX+dnYd1z2
+      Du1fQwNvIcZcgtKYWy7tLejNP3knnHeuXOL1qDsAvhyNcKrBfTT9Gt58YpBv/eoXXPaP9PTh
+      FvLunqicJaguu+yaXGxo+9JqBGPeXevLLom8ca3On3/iOrm8exL0V30+Hi6BanoAHHUKUx2U
+      J90ZiLWit+HZyKbhSNjVJo2OSVa8ubYU64b7h27r8O/xONImUl4LUV52j+c7ZuufWqugkf6x
+      e6RM7eoiBFg5H+kPzrn83lxPQ8tFx3pP8e1X3Cvanujr5xcfo70HQetfpWOOMZ/EybsnAgN2
+      8wfoHFvGLrgXHdlGY/MrhtfLSizqsmervLg2CxEAdZjs6mC14O5H+n2+fZFzF6fasXPuiaFq
+      U/iC/eexA2B1cZbpuQXCiU7S85NIvgjRoEYsqB1qneDP+N/mI7E/cdnb9V8D9j4R9t5TF3lw
+      yi246o1FqV8GW7AXjPk4mZtuqUewJwlPVdngMXjsAIgm28msryPbWQLJMziFRdbXV5ia2V4n
+      uH6t2FrZv+rUEd4QTEVIE1DdBSw8ZDfEbjuL6R5XDGfbD8Vs9WvRVsO0LGTT5OaFQcoFd1aI
+      hCSh1dnerHFswM5itU1/re3rid0q2xtpjczdAZffK7fj3fHaNiaGs0oKVpV1I5YhI9k2To3M
+      cY/O/QHWCZ56cB/HHycZ0xl6MIvjlAkEgvT6bBbWcnRs1AmuXyu2VvYvuY4gqrK9WWf7ch0x
+      XT0xXO3McBXB1cSpLjJVPhLx+/CrKo6lYpfd40GKoqKoKj94+jIF061l+ild3zkznKLUrIML
+      NCSGW07E+IPPv+Lyp0Jh/sUOYriHYrmSrWGm3aIGNe+vc20r166wlKy6pjkY68Kvqnxw6Qle
+      Vdzt+9i5J3hOlpFqZI6rn3Wv4i+tRB4/ACKJFKvrWQwrRO+pBLIWxKtIaJqX/AmqE/z2s5eZ
+      Gex32c+FQ0SA9VtnsRbcibf8LTBMaksy+SolbfP6IWXbsOWqa5ods3Jmyh61avtK3v2Zg8mP
+      9Dx+AIRjCcKxhzLn7Y8pfwvVCc6PnCL3Q3eHMf5UnOZrRVublWiEP/s7L7ns7e3tfA6YTyX4
+      bhV/b08vP38I7dsPWn4UyJhLkv7xBZc9fKqNKqsIXJiqB8PjvtWtGoldBY8oahrjPW5RgROt
+      DHAUdL2qX09WkUC3KC0fAI6l4JTcN7BjNXYDv/aRZ/lRt3tRxN87O8ALe25dfW48eYHsKXd+
+      oE9rmijC1wK0fADUo7QYJ3evz2UPXQw39IQ4aG5eOMdKlXmET2ga7lwZgsPk9774S60fAGPd
+      Xbz/4vMu+1O93TwDlAw/uax7yaVeElmHBDtjKUrrB8BiIs7t827ZcluyctO/9ewVXk+4h+J+
+      7twFPnHQjRPsiblUghtXL7nsp3u6OKy3iD0HgOM4zEyMbBTJUwj6ddYyJeKxVn4lEJMAAAZR
+      SURBVFn0JmhV5pMJ3rnqHqFTurv2Ift/Y+w5AOzSOtmyjr04T05TmS+V6DztTnMiELQie1Zc
+      OY6F6tHwKArlUoF0zsCziyVpAkEz2fOdqmhR7Pwckh4gmezk6lMXWFpe2Y+2CQQHzmYXqJYw
+      qRHOnN+uuuxM6Y/KWDrVo0x6+J31/Dg1orRSKlOqsT3Ohp/aUb7z9tTZvrJ/Gamq36n3/Rt+
+      Warud5yKkFBBqpp9znYqdYSrbSsjbZ7/qn6Jnf08vDbV/Q+vjVPj2kgb319z+7rnts694Wyt
+      c1yFh+e2xv63XhvJ2ZA75nK5PQVBNXK5HIFA7bVDtm3XFEwdd7/z8AZ+TL9t20iSVFOs14i/
+      Vc9NI/693Ftbz+3mE2CnnT0utm0TCtUeDXIcp+YFOu7+hzLrZvpb9dw04t/LvbX13DT1bXWn
+      A6z4YXnJndFh6/ZLy3vzA2BbLK2sPkb76vunxx+wnHYvmpckiXJulZXso4JzmfX1bX5jfYG1
+      fIn1nFtdu9Ove6P+em3fq7+Yy2LW6FTsdf/1qHfshbU18qaF8pWvfOUre/qmHTAMA7OY5f79
+      eyAp3B0aIRyJ4fU80vHMT08wPDKJYxcYn5wnGoujbNHo3/vwA+aXVpEwGRkZxVF8BP2P5LoP
+      7t9hdnYBj2Jye2iKZFsSZcvBD925xczcEqpsMjw2QyKZRNl029y9dZOiJTH24D5L6TwdbVvX
+      eTlMjg4zt5JlfXmGtbxJLPLoV8cqF7l39y7ruSzZnEEmvUIwHN48+Va5yA/eeQ+PrOCPBpmd
+      WiASfbS9kZ5nuSgxPznCWq5EuVggEn0knS4sT5Jx/GTW0+TzJdKrS4QjkUcqd8fkgxvvMz4x
+      yeLcPJH2Tjxbf9Isgx+/f5PJyUkWF5aIt3dsOXaYGR1mdGoKSZEZGxkjUygTjz4SaEw8uMf4
+      xBSyR2Ho/jDZornNPz58j4XVLGZxnZHRMRQ9jF9/pHD68EdvsFRSyS/PMDE9RzTRhrrl2q4u
+      zpA3ijwYnads5AiHt4tD5memKJULjE2tYBSy2/yGYZBdW+L+yDgex+DuyDyptjjylnN//95d
+      sobD9Ng9SraHcOhRLye7NMfQ1NTBPwFWVlawy1lmZpeId/QQ9Hld/vWFaUzVj2OWKJS2r4KK
+      xNvoiGqMzCxz8eITrC1tX/3lD8Xo74iyks7Q2XcG708scAlGk/TEdZayRXoGzvzEDZLH8UTp
+      aouT6uwh5HeL7nJFk7MDPZiOh/6ezm0+I7PI7HIO21HJZ5bJFcvbfnkUj053bx8Br0zZLJPJ
+      VCnUkVlmbimDbVvkcjn3CbTKFC2ZzNosecPevsTDcQhEkgTDQfraIhRdC7hswokOguEgXYkg
+      xk/8Glu2zODZM6Rnh5hZK7rSodt4GBzoYWl2jGTfBcqF7XXRfH4/hUKOxdUMT1wYZHlhfps/
+      mWqnr7ebQhl6kn5Ws9vLqwb9OnfvjqF6yhSK7tVv0YDKnaE5sLOUyu6BgOWVFdJLi6xlsvSc
+      PoO65dwXsusUjDIzM7ME/EGy2Z98CisMDJ4/+CeA5lEo2QqpVIpwKIhUzmOYkCsa6JqXUjGP
+      1x8mEg5QKJZIRAIUyzbFfB5d18imlyk4Pi70dzA0PEbvQD+FfIGiUUDXdYx8muW8TV9XB5rm
+      o1zIYFsmRRO8HoVCZoW05aG3PYGm6+Sz6zimSQkZj0enlFsiV5aIhAL4fT7MooGNhWFKeFUF
+      VbKYWVgjlYzj03XW0mmMYhFN0/HoAWwjRyASIxHS8UUSWMU8tl2m7Kh4lMqKuHg0zMTENNF4
+      EtssYxgGXl1HkiR8oTiqU8AfihEJByiVS0i2SdmR8XhUVN2PT/MSUGwi7d0Uc+tYJQPJo6FI
+      ErIs4/f58AcC4JiYlk2+UETXvICErCj4db3yjmeVsGzIFUromgdZltB8PrRQHI9ZIBCJYZtl
+      zFIR2aOjKBK6z4c/kmBtZoxo2ymskkG5ZKB6NIx8BtPx0NORYHR8mv6BXvJ5g2Ixj67reDUP
+      s3NLJEIay3mHzqhGacu1V7w6jm3RFvHjj3Vg5LOUSgYej1ZZMaj7cawy8ZCPUKKTYi5D0ShW
+      rrthoEgOihagrT2F3x/AyKaRJAcUD4oEmVyeVCqFYxbRg1Ecs4xVNpBUDUWVmBwb4/8Dc5nq
+      lK7UCQsAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='시트 4' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

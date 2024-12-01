@@ -1,0 +1,7 @@
+Gene,Original_Amino_Acid,Position,New_Amino_Acid
+CANT1,G,255,S
+ERAP2,P,14,L
+IDH1,R,132,H
+SATB1,A,397,S
+TP53,R,248,Q
+TP53,R,196,*
